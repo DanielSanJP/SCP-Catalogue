@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCP Foundation Catalog</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/catalogue.css">
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+</head>
+
+<body>
+
+    <div id="header"></div>
+
+
+    <div class="main">
+
+        <div class="intro">
+        <h1>Welcome to the SCP Foundation Catalog</h1>
+        <p>Your source for secure, contain, protect information.The Foundation is an international secret
+            society, consisting of a scientific research institution with a paramilitary intelligence agency to
+            support their goals. Despite its secretive premise, the Foundation is entrusted by governments
+            around the world to capture and contain various unexplained phenomena that defy the known laws of
+            nature (referred to as "anomalies", "SCP objects", "SCPs", or colloquially "skips"). They include
+            living beings and creatures, artifacts and objects, locations and places, abstract concepts, and
+            incomprehensible entities which display supernatural abilities or other extremely unusual
+            properties. If left uncontained, many of the more dangerous anomalies will pose a serious threat to
+            humans or even all life on Earth. Their existence is hidden and withheld from the general public in
+            order to prevent mass hysteria, and allow human civilization to continue functioning normally.</p>
+        </div>
+
+
+        <div class="scp-catalog" id="#catalog">
+            <a href="/scp-002.html" class="scp-card">
+                <div class="cardTitle">
+                    <h1>SCP-002</h1>
+                    <div class="cardContainment">
+                        <img class="cLevel" src="/images/Euclid.png" alt="">
+                    </div>
+                </div>
+                <div class="cardImg">
+                    <img src="/images/SCP002Card.webp" alt="SCP-002">
+                    <div class="cardName">
+                        <h3>The Living Room</h3>
+                    </div>
+                </div>
+                <div class="cardDesc">
+                    <p>SCP-002 is a large, fleshy mass that appears to be an interior room.</p>
+                    <div class="cardStats">
+                        <div class="StatColumn">
+                            SCP-002
+                        </div>
+                        <div class="StatColumn">
+                            Euclid
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+
+            <a href="/scp-003.html" class="scp-card">
+                <div class="cardTitle">
+                    <h1>SCP-003</h1>
+                    <div class="cardContainment">
+                        <img class="cLevel" src="/images/Euclid.png" alt="">
+                    </div>
+                </div>
+                <div class="cardImg">
+                    <img src="/images/SCP003Card.webp" alt="SCP-004">
+                    <div class="cardName">
+                        <h3>Biological Motherboard</h3>
+                    </div>
+                </div>
+                <div class="cardDesc">
+                    <p>SCP-003 is an ancient and sentient biological computer system.</p>
+                    <div class="cardStats">
+                        <div class="StatColumn">
+                            SCP-003
+                        </div>
+                        <div class="StatColumn">
+                            Euclid
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="/scp-004.html" class="scp-card">
+                <div class="cardTitle">
+                    <h1>SCP-004</h1>
+                    <div class="cardContainment">
+                        <img class="cLevel" src="/images/Euclid.png" alt="">
+                    </div>
+                </div>
+                <div class="cardImg">
+                    <img src="/images/SCP004Card.webp" alt="SCP-004">
+                    <div class="cardName">
+                        <h3>The 12 Rusty Keys and the Door</h3>
+                    </div>
+                </div>
+                <div class="cardDesc">
+                    <p> SCP-004 includes a door and twelve keys, each leading to different anomalies.</p>
+                    <div class="cardStats">
+                        <div class="StatColumn">
+                            SCP-004
+                        </div>
+                        <div class="StatColumn">
+                            Euclid
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="/scp-005.html" class="scp-card">
+                <div class="cardTitle">
+                    <h1>SCP-005</h1>
+                    <div class="cardContainment">
+                        <img class="cLevel" src="/images/Safe.png" alt="">
+                    </div>
+                </div>
+                <div class="cardImg">
+                    <img src="/images/SCP005Card.webp" alt="SCP-005">
+                    <div class="cardName">
+                        <h3>The Skeleton Key</h3>
+                    </div>
+                </div>
+                <div class="cardDesc">
+                    <p>SCP-005 is a key that can unlock any door, regardless of mechanism.</p>
+                    <div class="cardStats">
+                        <div class="StatColumn">
+                            SCP-005
+                        </div>
+                        <div class="StatColumn">
+                            Safe
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="/scp-006.html" class="scp-card">
+                <div class="cardTitle">
+                    <h1>SCP-006</h1>
+                    <div class="cardContainment">
+                        <img class="cLevel" src="/images/Safe.png" alt="">
+                    </div>
+                </div>
+                <div class="cardImg">
+                    <img src="/images/SCP006Card.webp" alt="SCP-006">
+                    <div class="cardName">
+                        <h3>The Fountain of Youth</h3>
+                    </div>
+                </div>
+                <div class="cardDesc">
+                    <p>SCP-006 is a small spring that grants remarkable health and longevity to those who drink its
+                        water.</p>
+                    <div class="cardStats">
+                        <div class="StatColumn">
+                            SCP-006
+                        </div>
+                        <div class="StatColumn">
+                            Safe
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+
+    <script type="module">
+        import { headerTemplate } from './scripts/header.js';
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('header').innerHTML = headerTemplate;
+            const burger = document.querySelector('.burger');
+            const navLinks = document.querySelector('.nav-links');
+
+            burger.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                burger.classList.toggle('toggle');
+            });
+        });
+    </script>
+
+    
+</body>
+
+</html>
