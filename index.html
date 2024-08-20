@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,27 +9,29 @@
     <link rel="stylesheet" href="styles/home.css">
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
 </head>
+
 <body>
 
-<!-- HEADER LOCATION -->
-<div id="header"></div>
+    <!-- HEADER LOCATION -->
+    <div id="header"></div>
 
-<div class="background"></div>
+    <div class="background"></div>
 
-<div class="container">
+    <div class="container">
 
-    <div class="titlePage">
-        <div class="titlePage-text">
-            <h1>SCP Foundation Catalogue</h1>
-            <p></p>
+        <div class="titlePage">
+            <div class="titlePage-text">
+                <h1>SCP Foundation Catalogue</h1>
+                <p></p>
+            </div>
         </div>
-</div>
 
-<div class="main">
-   <div class="mainButton"><a class="mainBtn" href="catalogue.html">Enter the Catalogue</a></div>
-</div>
+            <div class="mainButton"><a class="mainBtn" href="catalogue.html">Enter the Catalogue</a></div>
 
-</div>
+    </div>
+
+    <!-- FOOTER LOCATION -->
+    <div id="footer"></div>
 
     <script type="module">
         import { headerTemplate } from './scripts/header.js';
@@ -44,11 +47,13 @@
         });
     </script>
 
-<footer>
-<a href="https://github.com/" class="footLink">GitHub</a>
-<a href="PrivacyPolicy.html" class="footLink">Privacy Policy</a>
-<a href="TaC.html" class="footLink">Terms & Conditions</a>
-</footer>
+    <script type="module">
+        import { footerTemplate } from './scripts/footer.js';
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('footer').innerHTML = footerTemplate;
+        });
+    </script>
 
 </body>
+
 </html>

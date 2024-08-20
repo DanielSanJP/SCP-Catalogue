@@ -88,6 +88,16 @@
             });
         });
     </script>
+
+<script type="module">
+    import { footerTemplate } from './scripts/footer.js';
+    document.addEventListener('DOMContentLoaded', () => {
+        document.getElementById('footer').innerHTML = footerTemplate;
+    });
+</script>
+
+<div id="footer"></div>
+
 </body>
 
 </html>

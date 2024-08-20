@@ -19,15 +19,7 @@
     text-align: center;
     z-index: 1;
     padding: 15px;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: auto;
-    width: 90%;
-    text-align: center;
+    margin-top: 4rem;
 }
 
 .mainBtn {
@@ -60,7 +52,6 @@ transition: 0.3s;
 }
 
 .titlePage h1 {
-    margin: 0;
     font-size: 48px;
     color: rgba(255, 255, 255);
 }
