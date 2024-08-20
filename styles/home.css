@@ -19,7 +19,7 @@
     text-align: center;
     z-index: 1;
     padding: 15px;
-    margin-top: 4rem;
+
 }
 
 .mainBtn {
@@ -60,3 +60,11 @@ transition: 0.3s;
     margin: 10px 0 0;
     font-size: 16px;
 }
+
+/* Responsive */
+@media (max-width: 700px) {
+    .titlePage h1 {
+        font-size: 24px;
+        color: rgba(255, 255, 255);
+    }
+  }

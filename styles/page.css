@@ -12,6 +12,10 @@
  font-size: 16px;
 }
 
+.main {
+width: 80%;
+}
+
 .container{
   padding: 0.8rem;
   gap: 10px;
