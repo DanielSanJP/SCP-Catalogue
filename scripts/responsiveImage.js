@@ -6,9 +6,9 @@ function updateImages() {
     images.forEach(function(img) {
         var baseName = img.getAttribute('data-base-name');
         if (window.innerWidth <= 800) {
-            img.src = './images/' + baseName + 'Mobile.png';
+            img.src = '../images/' + baseName + 'Mobile.png';
         } else {
-            img.src = './images/' + baseName + 'Desktop.png';
+            img.src = '../images/' + baseName + 'Desktop.png';
         }
     });
 }
